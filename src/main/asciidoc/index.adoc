@@ -1,0 +1,9 @@
+= Generic Service
+Abalon AB
+
+Generic Service Template.
+
+
+include::{snippets}/overview.adoc[]
+include::{snippets}/paths.adoc[]
+include::{snippets}/definitions.adoc[]

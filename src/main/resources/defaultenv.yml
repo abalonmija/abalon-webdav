@@ -1,0 +1,3 @@
+env:
+  name: JAVA_OPTS
+  value: -Xms150m -Xmx150m -Dspring.profiles.active=gcp -Dspring.cloud.config.uri=http://relevate-config-service:26500 -Deureka.client.serviceUrl.defaultZone=http://${EUREKA_USER}:${EUREKA_PASSWORD}@relevate-discovery-service:26501/eureka/
